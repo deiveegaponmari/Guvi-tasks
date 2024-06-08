@@ -45,4 +45,5 @@ var x=10; is equvalent to window.x=10;
 The window object provide methods to control the browser windowsuch as 
 window.setTimeout(),window.alert(),window.close().
 
+Difference between window and document object?
 
