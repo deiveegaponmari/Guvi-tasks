@@ -1,0 +1,57 @@
+HTTP 1.1:
+What is HTTP 1.1?
+HTTP 1.1 is a widely used protocol transferring the data over 
+the world wide web.
+HTTP 1.1 works on the textual format.
+It compress data by itself.
+
+Advantages of Http 1.1:
+
+1.persistent connections:
+HTTP 1.1 allows multiple requests and responses to be over a 
+single Tcp/ip connection.
+
+2.pipelining:
+HTTP 1.1 supports request pipelining,where multiple requests 
+can be sent without waiting for each response.
+
+3.Chunked transfer encoding:
+HTTP 1.1 introduces the chunked transfer encoding,which enables 
+the server send  data to variable size chunks rather than 
+in a single block.
+
+4.Host header:
+HTTP1.1 requires a host header in every request,allowing servers
+to host multiple websites on the same IP address and port 
+combination.
+
+5.caching improvements:
+HTTP1.1 introduces the caching mechanisms,including support for cache validators.Its helps
+to reduce the bandwidth and improve performance.
+
+Disadvantages of Http1.1:
+1.increase complexity(for use modern applications)
+2.Inefficient use of network resources.
+-------
+HTTP 2:
+What is HTTP2?
+HTTP2 is a major version of the HTTP.
+It is used to communicate data world wide web.
+It was developed by IETF MAY 2015.HTTP 2 works on the binary protocol.
+It uses HPACK for data compression.
+
+Advantages:
+1.Multiplexing:
+HTTP2 allows multiple requests and response to be send and receive 
+concurrently over a single Tcp connection.
+2.Header compression:
+HTTP2 employs header compression techniques to reduce overhead 
+by compressing header compressing Http fields.
+3.server push
+4.Binary protocol
+5.stream prioritization.
+
+Disadvantages:
+1.complexity
+2.Resource consumption.
+3.middlebox compatibility.

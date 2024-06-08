@@ -1,0 +1,48 @@
+What is Dom?
+Dom stands for document object model.
+There are two objects.
+1.Document object
+2.window object
+
+1.Document object:
+The document object represents the webpage loaded in the browser
+and serves as an entry point to the content of the document.
+
+It provides access to element within the document,allowing developers to
+manipulate their structure,content,styles dynamically.
+
+some key characteristics of the document object
+
+1.Dom manipulation:
+The document object provides 
+method to select elements.
+('document.getElementById()',
+document.queryselector())
+create new elements-document.createElement()
+and manipulate the Dom tree.
+
+2.content access:
+its can access the parts of the document.
+document.forms
+document.images
+document.title
+
+3.Event handling:
+The document object can handle event that occurs within the 
+document such as clicks,keypress,mouse movements etc.
+e.g: document.getElementById('button').addEventlistener('click
+function())
+
+Window object:
+The window object represents the browser's window or a frame 
+displays the html document.
+Key features of the window object:
+1.Global scope:
+variables and functions declared globally.
+e.g:
+var x=10; is equvalent to window.x=10;
+2.Browser Interaction:
+The window object provide methods to control the browser windowsuch as 
+window.setTimeout(),window.alert(),window.close().
+
+

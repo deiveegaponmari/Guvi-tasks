@@ -1,0 +1,32 @@
+What is HTTP?
+HTTP stands for Hyper Text Transfer Protocol.
+HTTP is initiated by Tim Berners Lee at CERN in 1989.
+HTTP helps to transfer the data in network layer.
+HTTP is backbone of communication on the web,enabling client and 
+servers to exchange data seamlessly.
+Key components of HTTP:
+1.client-server model:
+HTTP operates on a client server model,where a client request to and
+server and the server responds to a client.
+
+2.Request-response cyle:
+The communication between the client and server occurs through
+a request-response cycle.
+3.Uniform resource identifier(URI):
+URI commonly referred to as URI,identify resources on the web.
+
+4.HTTP Methods:
+i.Get
+ii.post
+iii.put
+iv.Delete
+v.patch
+
+5.Headers:
+HTTP headers are additional pieces of information sent along
+with the request or response.
+6.status code:
+HTTP status codes are 3 digit numbers included in responses
+to indicate the outcome of the request.
+
+

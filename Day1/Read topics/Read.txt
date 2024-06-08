@@ -1,0 +1,36 @@
+IP address:
+IP stands for internet protocol.
+IP i a numerical label to assigned to each device connected to a 
+computer network.
+Each computers have a IP address.
+To purposes of a IP address:
+1.Routing
+2.Identification
+Types of IP address:
+1.IPV4
+2.IPV6
+1.IPV4:
+It consiste of a 32 bit address typically expressed in 
+dotted-decimal notation.(192.0.2.1)
+2.IPV6:
+It consiste of a 128 bits in length.
+Its typically expressed as eight groups of hexa decimal
+separated by colons.
+
+port:
+In computer networking,a port is a communication endpoint.
+port number(0-10000)
+A port number is associated with an IP address of the host,andit helps to identify 
+process or services on the host.
+
+HTTP methods:
+i.Get
+ii.post
+iii.put
+iv.delete
+v.patch
+
+Mac address:
+MAC stands for media access control.
+Mac address operates on a data link layer.
+Its mainly helps to data packets are delivered to local netork.
