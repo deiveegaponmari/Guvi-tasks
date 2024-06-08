@@ -47,3 +47,16 @@ window.setTimeout(),window.alert(),window.close().
 
 Difference between window and document object?
 
+Document object:
+i.It represents any html document.
+ii.It is loaded inside the window.
+iii.syntax:
+document.propertyname;
+
+Window object:
+It represent the browser window.
+ii.It is very fast object that is loaded in the browser.
+iii.syantax:
+window.propertyname;
+
+
