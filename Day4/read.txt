@@ -1,0 +1,47 @@
+In javascript window,screen,document are all global objects.
+Difference between window,screen,document in js:
+
+window:
+The window object represents the browser window or tab.
+Examples of properties:
+1.window.innerheight
+2.window.innerwidth
+3.window.history
+4.window.location
+Examples of methods:
+1.window.alert()
+2.window.open()
+3.window.setTimeout()
+4.window.addEventlistener()
+Examples of events:
+1.window.onload
+2.window.onresize
+
+----------
+2.SCREEN:
+The screen object contains information about the user's screen,
+such as height,width and color depth.
+Examples of properties:
+1.screen.width
+2.screen.height
+3.screen.availwidth
+4.screen.availheight
+5.screen.colorDepth
+-------------------
+3.DOCUMENT:
+The document object represents the html document loaded in thebrowser window.
+Examples of properties:
+1.document.body
+2.document.title
+3.document.head
+4.document.cookie
+Examples of methods:
+1.document.getElementById()
+2.document.querySelector() 
+3.document.createElement()
+4.document.addEventlistener()
+Examples of events:
+1.document.onload
+2.document.onclick
+3.document.onkeypress
+------------------------------
