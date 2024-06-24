@@ -40,7 +40,7 @@ var ar2 = [2, 13, 17, 30, 45];
 var n1 = ar1.length;
 var n2 = ar2.length;
 if (n1 == n2)
-    document.write("Median is "+ getMedian(ar1, ar2, n1));
+    console.log( getMedian(ar1, ar2, n1));
 else
-    document.write("Doesn't work for arrays of unequal size");
+    console.log("Doesn't work for arrays of unequal size");
  
