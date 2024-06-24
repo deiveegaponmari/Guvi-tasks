@@ -44,6 +44,7 @@ const jsondata=
 
 //parse the jsondata
 //const data=JSON.parse(jsondata)
+//console.log(data);
 //iterate the data using for of  loop
 
        for(let x of jsondata ){
