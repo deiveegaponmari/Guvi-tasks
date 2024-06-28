@@ -1,13 +1,13 @@
 class uberPrice{
-    constructor(distance,amount,vehicle){
+    constructor(distance,costPerKilometre,vehicle){
             this.distance=distance;
-            this.amount=amount;
+            this.costPerKilometre=costPerKilometre;
             this.vehicle=vehicle;
     }
    static getAmount(data){
 
         return data.map((value) =>{
-            return  value.distance * value.amount ;
+            return  value.distance * value.costPerKilometre ;
         })
     }
     
@@ -20,4 +20,5 @@ const data=[
    new uberPrice(10,400,"RolsRays"),
    new uberPrice(10,300,"Ferrari")
 ];
-console.log(uberPrice.getAmount(data));
+const TotalCost=uberPrice.getAmount(data);
+console.log(TotalCost);
